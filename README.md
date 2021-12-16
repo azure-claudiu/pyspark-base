@@ -1,3 +1,6 @@
+Dev container for pyspark work
+------------------------------
+
 # Optional setup
 
 Although not necessary, these environment variables might be useful:
@@ -15,4 +18,8 @@ To see the version of pyspark installed:
 pip show pyspark
 ```
 
-Although the dev container ensures the correct python runtime, you can prefix any .py script with this line: #!/opt/conda/bin/python
+Although the dev container ensures the correct python runtime, you can prefix any .py script with this line:
+
+```
+#!/opt/conda/bin/python
+```
